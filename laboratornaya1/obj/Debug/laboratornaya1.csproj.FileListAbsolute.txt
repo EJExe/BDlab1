@@ -1,0 +1,10 @@
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.csproj.AssemblyReference.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.Form1.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.Properties.Resources.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.csproj.GenerateResource.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.csproj.CoreCompileInputs.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\laboratornaya1.exe.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\laboratornaya1.exe
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\laboratornaya1.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.exe
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.pdb
