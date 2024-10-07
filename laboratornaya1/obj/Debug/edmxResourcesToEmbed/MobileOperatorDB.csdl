@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OperatorMobileConnectionModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="call">
+    <Key>
+      <PropertyRef Name="ID_Call" />
+    </Key>
+    <Property Name="ID_Call" Type="Int32" Nullable="false" />
+    <Property Name="Time_of_start" Type="DateTime" Precision="0" />
+    <Property Name="Amount" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Int32" />
+    <Property Name="ID_User_FK_" Type="Int32" Nullable="false" />
+    <Property Name="ID_Type_of_Call_FK_" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="Int32" Nullable="false" />
+    <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone_Number" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MoneyCount" Type="Int32" />
+    <Property Name="ID_Tariff_FK_" Type="Int32" Nullable="false" />
+    <Property Name="TypeOfUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MinLeft" Type="Int32" />
+    <Property Name="GBLeft" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tariff">
+    <Key>
+      <PropertyRef Name="ID_Tariff" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Price" />
+      <PropertyRef Name="TypeOfTariff" />
+    </Key>
+    <Property Name="ID_Tariff" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="Цена_1_min_mejgorod" Type="Int32" />
+    <Property Name="Цена_1_min_gorod" Type="Int32" />
+    <Property Name="Цена_1_min_mejdunarod" Type="Int32" />
+    <Property Name="TypeOfTariff" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="type_of_call">
+    <Key>
+      <PropertyRef Name="ID_Type_of_Call" />
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="ID_Type_of_Call" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="OperatorMobileConnectionContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="call" EntityType="Self.call" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="tariff" EntityType="Self.tariff" />
+    <EntitySet Name="type_of_call" EntityType="Self.type_of_call" />
+  </EntityContainer>
+</Schema>

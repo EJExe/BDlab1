@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище OperatorMobileConnectionModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="call">
+          <Key>
+            <PropertyRef Name="ID_Call" />
+          </Key>
+          <Property Name="ID_Call" Type="int" Nullable="false" />
+          <Property Name="Time_of_start" Type="date" />
+          <Property Name="Amount" Type="int" Nullable="false" />
+          <Property Name="Price" Type="int" />
+          <Property Name="ID_User(FK)" Type="int" Nullable="false" />
+          <Property Name="ID_Type_of_Call(FK)" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6013: Первичный ключ в таблице или представлении "OperatorMobileConnection.dbo.SpravochnikTariff" не определен, его не удалось вывести. Эта таблица или представление исключены. Чтобы использовать сущность, необходимо проверить схему, добавить правильные ключи и раскомментировать ее.
+        <EntityType Name="SpravochnikTariff">
+          <Property Name="NameOfTariff" Type="varchar(max)" />
+        </EntityType>-->
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "OperatorMobileConnection.dbo.tariff" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="tariff">
+          <Key>
+            <PropertyRef Name="ID_Tariff" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Price" />
+            <PropertyRef Name="TypeOfTariff" />
+          </Key>
+          <Property Name="ID_Tariff" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Price" Type="int" Nullable="false" />
+          <Property Name="Цена_1_min_mejgorod" Type="int" />
+          <Property Name="Цена_1_min_gorod" Type="int" />
+          <Property Name="Цена_1_min_mejdunarod" Type="int" />
+          <Property Name="TypeOfTariff" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "OperatorMobileConnection.dbo.type_of_call" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+        <EntityType Name="type_of_call">
+          <Key>
+            <PropertyRef Name="ID_Type_of_Call" />
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="ID_Type_of_Call" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Ошибки, обнаруженные при создании:
+предупреждение 6013: Первичный ключ в таблице или представлении "OperatorMobileConnection.dbo.TypeUser" не определен, его не удалось вывести. Эта таблица или представление исключены. Чтобы использовать сущность, необходимо проверить схему, добавить правильные ключи и раскомментировать ее.
+        <EntityType Name="TypeUser">
+          <Property Name="NameOfType" Type="varchar(max)" />
+        </EntityType>-->
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID_User" />
+          </Key>
+          <Property Name="ID_User" Type="int" Nullable="false" />
+          <Property Name="FIO" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Phone_Number" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="MoneyCount" Type="int" />
+          <Property Name="ID_Tariff(FK)" Type="int" Nullable="false" />
+          <Property Name="TypeOfUser" Type="varchar" MaxLength="50" />
+          <Property Name="Login" Type="varchar" MaxLength="50" />
+          <Property Name="Password" Type="varchar" MaxLength="50" />
+          <Property Name="MinLeft" Type="int" />
+          <Property Name="GBLeft" Type="int" />
+        </EntityType>
+        <EntityContainer Name="Хранилище OperatorMobileConnectionModelContainer">
+          <EntitySet Name="call" EntityType="Self.call" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tariff" EntityType="Self.tariff" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [tariff].[ID_Tariff] AS [ID_Tariff], 
+    [tariff].[Name] AS [Name], 
+    [tariff].[Price] AS [Price], 
+    [tariff].[Цена_1_min_mejgorod] AS [Цена_1_min_mejgorod], 
+    [tariff].[Цена_1_min_gorod] AS [Цена_1_min_gorod], 
+    [tariff].[Цена_1_min_mejdunarod] AS [Цена_1_min_mejdunarod], 
+    [tariff].[TypeOfTariff] AS [TypeOfTariff]
+    FROM [dbo].[tariff] AS [tariff]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="type_of_call" EntityType="Self.type_of_call" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [type_of_call].[ID_Type_of_Call] AS [ID_Type_of_Call], 
+    [type_of_call].[Name] AS [Name]
+    FROM [dbo].[type_of_call] AS [type_of_call]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="OperatorMobileConnectionModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="call">
+          <Key>
+            <PropertyRef Name="ID_Call" />
+          </Key>
+          <Property Name="ID_Call" Type="Int32" Nullable="false" />
+          <Property Name="Time_of_start" Type="DateTime" Precision="0" />
+          <Property Name="Amount" Type="Int32" Nullable="false" />
+          <Property Name="Price" Type="Int32" />
+          <Property Name="ID_User_FK_" Type="Int32" Nullable="false" />
+          <Property Name="ID_Type_of_Call_FK_" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID_User" />
+          </Key>
+          <Property Name="ID_User" Type="Int32" Nullable="false" />
+          <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Phone_Number" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="MoneyCount" Type="Int32" />
+          <Property Name="ID_Tariff_FK_" Type="Int32" Nullable="false" />
+          <Property Name="TypeOfUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="MinLeft" Type="Int32" />
+          <Property Name="GBLeft" Type="Int32" />
+        </EntityType>
+        <EntityType Name="tariff">
+          <Key>
+            <PropertyRef Name="ID_Tariff" />
+            <PropertyRef Name="Name" />
+            <PropertyRef Name="Price" />
+            <PropertyRef Name="TypeOfTariff" />
+          </Key>
+          <Property Name="ID_Tariff" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Price" Type="Int32" Nullable="false" />
+          <Property Name="Цена_1_min_mejgorod" Type="Int32" />
+          <Property Name="Цена_1_min_gorod" Type="Int32" />
+          <Property Name="Цена_1_min_mejdunarod" Type="Int32" />
+          <Property Name="TypeOfTariff" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="type_of_call">
+          <Key>
+            <PropertyRef Name="ID_Type_of_Call" />
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Name="ID_Type_of_Call" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="OperatorMobileConnectionContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="call" EntityType="Self.call" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="User" EntityType="Self.User" />
+          <EntitySet Name="tariff" EntityType="Self.tariff" />
+          <EntitySet Name="type_of_call" EntityType="Self.type_of_call" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище OperatorMobileConnectionModelContainer" CdmEntityContainer="OperatorMobileConnectionContext">
+          <EntitySetMapping Name="call">
+            <EntityTypeMapping TypeName="OperatorMobileConnectionModel.call">
+              <MappingFragment StoreEntitySet="call">
+                <ScalarProperty Name="ID_Call" ColumnName="ID_Call" />
+                <ScalarProperty Name="Time_of_start" ColumnName="Time_of_start" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="ID_User_FK_" ColumnName="ID_User(FK)" />
+                <ScalarProperty Name="ID_Type_of_Call_FK_" ColumnName="ID_Type_of_Call(FK)" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="OperatorMobileConnectionModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User">
+            <EntityTypeMapping TypeName="OperatorMobileConnectionModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="ID_User" ColumnName="ID_User" />
+                <ScalarProperty Name="FIO" ColumnName="FIO" />
+                <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+                <ScalarProperty Name="MoneyCount" ColumnName="MoneyCount" />
+                <ScalarProperty Name="ID_Tariff_FK_" ColumnName="ID_Tariff(FK)" />
+                <ScalarProperty Name="TypeOfUser" ColumnName="TypeOfUser" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="MinLeft" ColumnName="MinLeft" />
+                <ScalarProperty Name="GBLeft" ColumnName="GBLeft" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tariff">
+            <EntityTypeMapping TypeName="OperatorMobileConnectionModel.tariff">
+              <MappingFragment StoreEntitySet="tariff">
+                <ScalarProperty Name="ID_Tariff" ColumnName="ID_Tariff" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Цена_1_min_mejgorod" ColumnName="Цена_1_min_mejgorod" />
+                <ScalarProperty Name="Цена_1_min_gorod" ColumnName="Цена_1_min_gorod" />
+                <ScalarProperty Name="Цена_1_min_mejdunarod" ColumnName="Цена_1_min_mejdunarod" />
+                <ScalarProperty Name="TypeOfTariff" ColumnName="TypeOfTariff" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="type_of_call">
+            <EntityTypeMapping TypeName="OperatorMobileConnectionModel.type_of_call">
+              <MappingFragment StoreEntitySet="type_of_call">
+                <ScalarProperty Name="ID_Type_of_Call" ColumnName="ID_Type_of_Call" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище OperatorMobileConnectionModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="call">
+    <Key>
+      <PropertyRef Name="ID_Call" />
+    </Key>
+    <Property Name="ID_Call" Type="int" Nullable="false" />
+    <Property Name="Time_of_start" Type="date" />
+    <Property Name="Amount" Type="int" Nullable="false" />
+    <Property Name="Price" Type="int" />
+    <Property Name="ID_User(FK)" Type="int" Nullable="false" />
+    <Property Name="ID_Type_of_Call(FK)" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6013: Первичный ключ в таблице или представлении "OperatorMobileConnection.dbo.SpravochnikTariff" не определен, его не удалось вывести. Эта таблица или представление исключены. Чтобы использовать сущность, необходимо проверить схему, добавить правильные ключи и раскомментировать ее.
+        <EntityType Name="SpravochnikTariff">
+          <Property Name="NameOfTariff" Type="varchar(max)" />
+        </EntityType>-->
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "OperatorMobileConnection.dbo.tariff" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="tariff">
+    <Key>
+      <PropertyRef Name="ID_Tariff" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Price" />
+      <PropertyRef Name="TypeOfTariff" />
+    </Key>
+    <Property Name="ID_Tariff" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="Цена_1_min_mejgorod" Type="int" />
+    <Property Name="Цена_1_min_gorod" Type="int" />
+    <Property Name="Цена_1_min_mejdunarod" Type="int" />
+    <Property Name="TypeOfTariff" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "OperatorMobileConnection.dbo.type_of_call" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="type_of_call">
+    <Key>
+      <PropertyRef Name="ID_Type_of_Call" />
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="ID_Type_of_Call" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6013: Первичный ключ в таблице или представлении "OperatorMobileConnection.dbo.TypeUser" не определен, его не удалось вывести. Эта таблица или представление исключены. Чтобы использовать сущность, необходимо проверить схему, добавить правильные ключи и раскомментировать ее.
+        <EntityType Name="TypeUser">
+          <Property Name="NameOfType" Type="varchar(max)" />
+        </EntityType>-->
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="int" Nullable="false" />
+    <Property Name="FIO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone_Number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MoneyCount" Type="int" />
+    <Property Name="ID_Tariff(FK)" Type="int" Nullable="false" />
+    <Property Name="TypeOfUser" Type="varchar" MaxLength="50" />
+    <Property Name="Login" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="MinLeft" Type="int" />
+    <Property Name="GBLeft" Type="int" />
+  </EntityType>
+  <EntityContainer Name="Хранилище OperatorMobileConnectionModelContainer">
+    <EntitySet Name="call" EntityType="Self.call" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tariff" EntityType="Self.tariff" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tariff].[ID_Tariff] AS [ID_Tariff], 
+    [tariff].[Name] AS [Name], 
+    [tariff].[Price] AS [Price], 
+    [tariff].[Цена_1_min_mejgorod] AS [Цена_1_min_mejgorod], 
+    [tariff].[Цена_1_min_gorod] AS [Цена_1_min_gorod], 
+    [tariff].[Цена_1_min_mejdunarod] AS [Цена_1_min_mejdunarod], 
+    [tariff].[TypeOfTariff] AS [TypeOfTariff]
+    FROM [dbo].[tariff] AS [tariff]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="type_of_call" EntityType="Self.type_of_call" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [type_of_call].[ID_Type_of_Call] AS [ID_Type_of_Call], 
+    [type_of_call].[Name] AS [Name]
+    FROM [dbo].[type_of_call] AS [type_of_call]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

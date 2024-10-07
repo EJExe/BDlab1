@@ -1,0 +1,17 @@
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\lab2prog2.exe.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\lab2prog2.exe
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\lab2prog2.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\EntityFramework.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\EntityFramework.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.csproj.AssemblyReference.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.Properties.Resources.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.csproj.GenerateResource.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.csproj.CoreCompileInputs.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.csproj.Up2Date
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.exe
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.Form1.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.Migrations.InitialCreate.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.Migrations.MigrationJobWorkers.resources

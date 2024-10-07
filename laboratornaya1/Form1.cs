@@ -2,255 +2,202 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Data.SqlClient;
+using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
 
 namespace laboratornaya1
 {
     public partial class Form1 : Form
     {
-        #region Строка подключения к БД
+        OperatorMobileConnectionContext dbcontext = new OperatorMobileConnectionContext();
+        List<User> allUsers;
+        List<tariff> allTarifs;
+        List<User> allUsersFilt;
 
-        private string connectionString;
-
-        #endregion
-
-        #region Объекты NpgsqlDataAdapter
-
-        private SqlDataAdapter userAdapter;
-        private SqlDataAdapter tariffAdapter;
-        private SqlDataAdapter callAdapter;
-        private SqlDataAdapter typeOfCallAdapter;
-        private SqlDataAdapter typeUserAdapter;
-        private SqlDataAdapter SpravochnikTariffAdapter;
-
-        #endregion
-
-        #region Объекты NpgsqlCommandBuilder
-
-        private SqlCommandBuilder userBuilder;
-        private SqlCommandBuilder tariffBuilder;
-        private SqlCommandBuilder callBuilder;
-        private SqlCommandBuilder typeOfCallBuilder;
-        private SqlCommandBuilder typeUserBuilder;
-        private SqlCommandBuilder SpravochnikTariffBuilder;
-
-        #endregion
-
-        #region Объект DataSet
-
-        private DataSet dataSet = new DataSet();
-
-        #endregion
         public Form1()
         {
             InitializeComponent();
-            connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["DbConnection1"].ConnectionString;
-
-            userAdapter = new SqlDataAdapter("Select * from \"User\";", connectionString);
-            tariffAdapter = new SqlDataAdapter("Select * from \"tariff\";", connectionString);
-            callAdapter = new SqlDataAdapter("Select * from \"call\";", connectionString);
-            typeOfCallAdapter = new SqlDataAdapter("Select * from \"type_of_call\";", connectionString);
-            typeUserAdapter = new SqlDataAdapter("Select * from \"TypeUser\";", connectionString);
-            SpravochnikTariffAdapter = new SqlDataAdapter("Select * from \"SpravochnikTariff\";", connectionString);
-
-            userBuilder = new SqlCommandBuilder(userAdapter);
-            callBuilder = new SqlCommandBuilder(callAdapter);
-            tariffBuilder = new SqlCommandBuilder(tariffAdapter);
-            typeOfCallBuilder = new SqlCommandBuilder(typeOfCallAdapter);
-            typeUserBuilder = new SqlCommandBuilder(typeUserAdapter);
-            SpravochnikTariffBuilder = new SqlCommandBuilder(SpravochnikTariffAdapter);
-
-            userAdapter.Fill(dataSet, "User");
-            tariffAdapter.Fill(dataSet, "tariff");
-            callAdapter.Fill(dataSet, "call");
-            typeOfCallAdapter.Fill(dataSet, "type_of_call");
-            typeUserAdapter.Fill(dataSet, "TypeUser");
-            SpravochnikTariffAdapter.Fill(dataSet, "SpravochnikTariff");
-
-            dataGridViewUser.DataSource = dataSet.Tables["User"];
-            dataGridViewTariff.DataSource = dataSet.Tables["tariff"];
-            dataGridViewCall.DataSource = dataSet.Tables["call"];
-            dataGridViewTypeOfCall.DataSource = dataSet.Tables["type_of_call"];
-            dataGridViewTypeUser.DataSource = dataSet.Tables["TypeUser"];
-            dataGridViewSpravochnikTariff.DataSource = dataSet.Tables["SpravochnikTariff"];
-
-            //FillUserCombobox();
-            FillReportCombobox();
-            FillTariffComboBox();
+            loadData();
         }
 
-        private void FillReportCombobox() // комбобокс который ничего не делает 
+        private void loadData()
         {
-            using (var sqlConnection = new SqlConnection(connectionString))
+            allTarifs = dbcontext.tariff.ToList();
+            allUsers = dbcontext.User.ToList();
+
+            loadUsers();
+
+            comboBoxUserPick.DataSource = allUsers;
+            comboBoxUserPick.DisplayMember = "FIO";
+            comboBoxUserPick.ValueMember = "ID_User";
+
+            //comboBox1.DataSource = allTarifs;
+            //comboBox1.DisplayMember = "Name";
+            //comboBox1.ValueMember = "ID_Tariff";
+
+            DataGridViewComboBoxColumn combo = ((DataGridViewComboBoxColumn)dataGridViewUSERS.Columns["id_tariff_fkDataGridViewComboBoxColumn"]);
+            combo.DataSource = allTarifs;
+            combo.DisplayMember = "Name";
+            combo.ValueMember = "ID_Tariff";
+            
+        }
+
+        private void loadUsers()
+        {
+            dbcontext.User.Load(); 
+            allUsers = dbcontext.User.ToList();
+            dataGridViewUSERS.AutoGenerateColumns = false;
+            dataGridViewUSERS.DataSource = allUsers;
+        }
+
+        private int getSelectedRow(DataGridView dataGridView)
+        {
+            int index = -1;
+            if (dataGridView.SelectedRows.Count > 0 || dataGridView.SelectedCells.Count == 1)
             {
-                // Используем команду для более явного и безопасного запроса
-                using (var sqlCommand = new SqlCommand("select ID_User, FIO from [User]", sqlConnection))
+                if (dataGridView.SelectedRows.Count > 0)
+                    index = dataGridView.SelectedRows[0].Index;
+                else index = dataGridView.SelectedCells[0].RowIndex;
+            }
+            return index;
+        }
+
+        private void Form1_Load(object sender, EventArgs e) { }
+
+        private void bindingSource1_CurrentChanged(object sender, EventArgs e) { }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e) { }
+
+        private void dataGridViewUSERS_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
+        
+
+        private void buttonGetReport1_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+
+            f.comboBox1.DataSource = allTarifs;
+            f.comboBox1.DisplayMember = "Name";
+            f.comboBox1.ValueMember = "ID_Tariff";
+
+            DialogResult result = f.ShowDialog(this);
+
+            if (result == DialogResult.Cancel)
+                return;
+
+            User us = new User();
+            us.ID_User = allUsers.Count() + 1;
+            us.ID_Tariff_FK_ = (int)f.comboBox1.SelectedValue;
+            us.Phone_Number = f.textBox2.Text;
+            us.FIO = f.textBox1.Text;
+            us.Login = f.textBox1.Text;
+            dbcontext.User.Add(us);
+            dbcontext.SaveChanges();
+            loadUsers();
+            MessageBox.Show("New ADD");
+        }
+
+        private void button1_Click(object sender, EventArgs e) //кнопка апд
+        {
+            int index = getSelectedRow(dataGridViewUSERS);
+            if (index != -1)
+            {
+                int id = 0;
+                bool converted = Int32.TryParse(dataGridViewUSERS[0, index].Value.ToString(), out id);
+                if (converted == false)
+                    return;
+
+                User contr = dbcontext.User.Where(i => i.ID_User == id).FirstOrDefault();
+                if (contr != null)
                 {
-                    sqlConnection.Open();
+                    Form2 f = new Form2();
+                    f.comboBox1.DataSource = allTarifs;
+                    f.comboBox1.DisplayMember = "Name";
+                    f.comboBox1.ValueMember = "ID_Tariff";
 
-                    // Используем SqlDataReader для чтен    ия данных
-                    using (var reader = sqlCommand.ExecuteReader())
-                    {
-                        // Создаем список для хранения данных
-                        List<KeyValuePair<int, string>> userList = new List<KeyValuePair<int, string>>();
+                    f.comboBox1.SelectedValue = contr.ID_Tariff_FK_;
+                    f.textBox1.Text = contr.FIO;
+                    f.textBox2.Text = contr.Phone_Number;
 
-                        // Читаем данные из reader
-                        while (reader.Read())
-                        {
-                            // Извлекаем значения из колонок
-                            int id = reader.GetInt32(0);
-                            string fio = reader.GetString(1);
+                    DialogResult result = f.ShowDialog(this);
 
-                            // Добавляем данные в список
-                            userList.Add(new KeyValuePair<int, string>(id, fio));
-                        }
+                    if (result == DialogResult.Cancel)
+                        return;
+                    contr.ID_Tariff_FK_ = (int)f.comboBox1.SelectedValue;
+                    contr.FIO = f.textBox1.Text;
+                    contr.Phone_Number = f.textBox2.Text;
 
-                        // Связываем комбобокс с данными
-                        comboBoxUserReport.DataSource = userList;
-                        comboBoxUserReport.DisplayMember = "Value";
-                        comboBoxUserReport.ValueMember = "Key";
-                    }
+                    dbcontext.SaveChanges();
+                    loadUsers();
+                    MessageBox.Show("Объект обновлен");
                 }
             }
+            else
+                MessageBox.Show("Ни один объект не выбран!");
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void buttonSort_Click(object sender, EventArgs e)
         {
+            int selectedUser = (int)comboBoxUserPick.SelectedValue;
 
+            // Фильтрация данных
+            allUsersFilt = allUsers.Where(h => h.ID_User == selectedUser).ToList();
+
+            // Обновление DataGridView
+            dataGridViewUSERS.DataSource = allUsersFilt;
         }
 
-        private void saveButton_Click(object sender, EventArgs e) {} // не юзать 
+        
 
-        private void SaveCALL_Click(object sender, EventArgs e) // кнопка сохранения для таблицы call
+        public class SPResult
         {
-            callAdapter.Update(dataSet, "call");
-        }
+            public int ID_Call { get; set; }
+            public int Amount { get; set; }
+            public DateTime Time_of_start { get; set; }
 
-        private void buttonUserSave_Click(object sender, EventArgs e)// кнопка сохранения для таблицы user
+        }
+        
+
+        private void button2_Click(object sender, EventArgs e)
         {
-            userAdapter.Update(dataSet, "User");
+            var request = dbcontext.tariff
+            .Join(dbcontext.User, c => c.ID_Tariff, em => em.ID_Tariff_FK_, (c, em) => new { tariff = c, User = em })
+            .Where(x => x.User.ID_Tariff_FK_ == x.tariff.ID_Tariff)
+            .GroupBy(x => x.tariff.Name)
+            .Select(g => new { name = g.Key, quantity = g.Count() })
+            .ToList();
+
+            dataGridView1.DataSource = request;
         }
 
-        private void buttonADD_Click(object sender, EventArgs e) // добавление новой строки для таблицы user // tables[0] - 0 указывает на таблицу ( тк она 1 в tabcontrole ) 
+
+        private void button3_Click(object sender, EventArgs e)
         {
-            DataRow row = dataSet.Tables[0].NewRow();
-            dataSet.Tables[0].Rows.Add(row);
+            DateTime date1 = dateTimePicker1.Value;
+            DateTime date2 = dateTimePicker2.Value;
+
+            SqlParameter param1 = new SqlParameter("@StartTime", date1);
+            SqlParameter param2 = new SqlParameter("@EndTime", date2);
+
+            var result = dbcontext.Database.SqlQuery<SPResult>("GetCallsByTimeRange @StartTime,@EndTime", new object[] { param1, param2 }).ToList();
+            var data = result.GroupBy(i => new { i.ID_Call, i.Time_of_start }).ToDictionary(i => i.Key, i => i.Select(j => j.Amount))
+                .Select(i => new {
+                    i.Key.ID_Call,
+                    i.Key.Time_of_start,
+                    Phones = String.Join(",", i.Value.Select(j => j).ToArray())
+                }).ToList();
+
+            dataGridView1.DataSource = data;
         }
 
-        private void comboBoxUserReport_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FillTariffComboBox() // Метод заполняет comboBox1 списком тарифов из таблицы “Тарифы”.
-        {
-            using (var sqlConnection = new SqlConnection(connectionString))
-            {
-                using (var sqlCommand = new SqlCommand("SELECT ID_Tariff, Name FROM Tariff", sqlConnection))
-                {
-                    sqlConnection.Open();
-                    using (var reader = sqlCommand.ExecuteReader())
-                    {
-                        comboBox1.Items.Clear();
-                        while (reader.Read())
-                        {
-                            comboBox1.Items.Add(new KeyValuePair<int, string>(reader.GetInt32(0), reader.GetString(1)));
-                        }
-                    }
-                }
-            }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e) // Метод вызывается при изменении выбранного элемента в comboBox1.
-        {
-            if (comboBox1.SelectedItem != null)
-            {
-                KeyValuePair<int, string> selectedTariff = (KeyValuePair<int, string>)comboBox1.SelectedItem;
-                FillDataGridView(selectedTariff.Key);
-            }
-        }
-
-        private void FillDataGridView(int tariffId) // вызов обычной процедуры 
-//Метод выполняет SQL-запрос, который:
-//Выбирает ID_Пользователя и Имя из таблицы “Пользователи”.
-//Использует INNER JOIN для соединения таблиц “Пользователи” и “Привязка_Тарифов” по ID_Пользователя.
-//Фильтрует записи, где ID_Тарифа в таблице “Привязка_Тарифов” соответствует выбранному tariffId.
-//Загружает полученные данные в DataTable и присваивает его в качестве DataSource для dataGridView1.
-        {
-            using (var sqlConnection = new SqlConnection(connectionString))
-            {
-                using (var sqlCommand = new SqlCommand("SELECT [User].ID_User, [User].FIO FROM [User] " +
-                                                      "INNER JOIN tariff ON [User].[ID_Tariff(FK)] = tariff.ID_Tariff " +
-                                                      "WHERE tariff.ID_Tariff = @tariffId", sqlConnection))
-                {
-                    sqlCommand.Parameters.AddWithValue("@tariffId", tariffId);
-                    sqlConnection.Open();
-                    using (var reader = sqlCommand.ExecuteReader())
-                    {
-                        DataTable dataTable = new DataTable();
-                        dataTable.Load(reader);
-                        dataGridView1.DataSource = dataTable;
-                    }
-                }
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e) // вызов влож. процедуры 
-        {
-            DateTime data1 = dateTimePicker1.Value.Date;
-            DateTime data2 = dateTimePicker2.Value.Date;
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlDataAdapter sqlAdapter = new SqlDataAdapter("GetCallsByTimeRange", connection);
-                sqlAdapter.SelectCommand.CommandType = CommandType.StoredProcedure;
-
-                sqlAdapter.SelectCommand.Parameters.Add(new SqlParameter("@StartTime", SqlDbType.Date));
-                sqlAdapter.SelectCommand.Parameters.Add(new SqlParameter("@EndTime", SqlDbType.Date));
-                sqlAdapter.SelectCommand.Parameters["@StartTime"].Value = data1;
-                sqlAdapter.SelectCommand.Parameters["@EndTime"].Value = data2;
-
-
-                DataSet dataSet = new DataSet();
-                sqlAdapter.Fill(dataSet, "report2");
-
-                dataGridViewVlojProc.DataSource = dataSet.Tables["report2"];
-            }
-        }
-
-        private void buttonTariffsave_Click(object sender, EventArgs e)
-        {
-            tariffAdapter.Update(dataSet, "tariff");
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonADDcall_Click(object sender, EventArgs e) // добавление новой строки для таблицы call 
-        {
-            DataRow row = dataSet.Tables[2].NewRow();
-            dataSet.Tables[2].Rows.Add(row);
-        }
-
-        private void buttonRemoveCall_Click(object sender, EventArgs e) // удаление последней строки в call 
-        {
-            dataSet.Tables[2].Rows[dataSet.Tables[2].Rows.Count - 1].Delete();
-        }
-
-        private void buttonRemoveUser_Click(object sender, EventArgs e) // удаление последней строки в user 
-        {
-            dataSet.Tables[0].Rows[dataSet.Tables[0].Rows.Count - 1].Delete();
-        }
-
-        private void dataGridViewUser_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
     
 }

@@ -8,3 +8,9 @@ C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laborat
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\laboratornaya1.pdb
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.exe
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\EntityFramework.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\EntityFramework.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laborato.21B5F558.Up2Date
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.Form2.resources
