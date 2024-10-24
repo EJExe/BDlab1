@@ -3,39 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\migrations\\202410071537553_migrationjobworkers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\migrations\\202410071537553_migrationjobworkers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\bll\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|solutionrelative:bll\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|solutionrelative:bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\bll\\services\\dbdataoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|solutionrelative:bll\\services\\dbdataoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\jobcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\jobcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mrlas\\Downloads\\Lab2EFPgs\\CodeFirst\\Model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D89297C-FE52-400D-BF92-884F86578711}|lab2prog2\\lab2prog2.csproj|solutionrelative:lab2prog2\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,129 +29,80 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 790,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 784,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Job.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Job.cs",
-              "RelativeDocumentMoniker": "lab2prog2\\Job.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Job.cs",
-              "RelativeToolTip": "lab2prog2\\Job.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:08:08.188Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "202410071537553_MigrationJobWorkers.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Migrations\\202410071537553_MigrationJobWorkers.cs",
-              "RelativeDocumentMoniker": "lab2prog2\\Migrations\\202410071537553_MigrationJobWorkers.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Migrations\\202410071537553_MigrationJobWorkers.cs",
-              "RelativeToolTip": "lab2prog2\\Migrations\\202410071537553_MigrationJobWorkers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:38:00.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "lab2prog2\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "lab2prog2\\Migrations\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:37:12.526Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Form1.cs",
-              "RelativeDocumentMoniker": "lab2prog2\\Form1.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Form1.cs",
-              "RelativeToolTip": "lab2prog2\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:29:16.516Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\App.config",
-              "RelativeDocumentMoniker": "lab2prog2\\App.config",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\App.config",
-              "RelativeToolTip": "lab2prog2\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-07T15:16:42.801Z",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form1.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
+              "RelativeToolTip": "laboratornaya1\\Form1.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAIAwwMgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:17:28.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "JobContext.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\JobContext.cs",
-              "RelativeDocumentMoniker": "lab2prog2\\JobContext.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\JobContext.cs",
-              "RelativeToolTip": "lab2prog2\\JobContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:12:34.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Worker.cs",
-              "RelativeDocumentMoniker": "lab2prog2\\Worker.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Worker.cs",
-              "RelativeToolTip": "lab2prog2\\Worker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:11:40.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Model1.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\Downloads\\Lab2EFPgs\\CodeFirst\\Model1.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\Lab2EFPgs\\CodeFirst\\Model1.cs",
-              "ToolTip": "C:\\Users\\mrlas\\Downloads\\Lab2EFPgs\\CodeFirst\\Model1.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\Lab2EFPgs\\CodeFirst\\Model1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:28:41.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Form1.cs",
-              "RelativeDocumentMoniker": "lab2prog2\\Form1.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\lab2prog2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "lab2prog2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form1.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "laboratornaya1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T15:29:15.224Z",
+              "WhenOpened": "2024-10-18T21:09:11.15Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBDataOperation.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\DBDataOperation.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\DBDataOperation.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\DBDataOperation.cs",
+              "RelativeToolTip": "BLL\\Services\\DBDataOperation.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAUwFEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:03:46.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\ReportService.cs",
+              "RelativeToolTip": "BLL\\Services\\ReportService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvx0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:03:18.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UsersService.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\UsersService.cs",
+              "RelativeToolTip": "BLL\\Services\\UsersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T19:03:02.188Z",
+              "EditorCaption": ""
             }
           ]
         }

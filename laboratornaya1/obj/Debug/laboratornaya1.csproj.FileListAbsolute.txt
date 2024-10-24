@@ -14,3 +14,10 @@ C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laborat
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laborato.21B5F558.Up2Date
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.Form2.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\BLL.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\BLL.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\BLL.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DAL.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DAL.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DAL.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.Form3.resources
