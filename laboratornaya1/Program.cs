@@ -1,4 +1,8 @@
-﻿using System;
+﻿using DIApp.Util;
+using Interfaces.Services;
+using laboratornaya1.Util;
+using Ninject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,9 +18,16 @@ namespace laboratornaya1
         [STAThread]
         static void Main()
         {
+
+            var kernel = new StandardKernel(new NinjectRegistrarion(), new ReposModule("dbUsers"));
+
+            IUserService userServ = kernel.Get<IUserService>();
+            ITarifService tarifServ = kernel.Get<ITarifService>();
+            IReportService reportServ = kernel.Get<IReportService>();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1(userServ, tarifServ, reportServ));
         }
     }
 }

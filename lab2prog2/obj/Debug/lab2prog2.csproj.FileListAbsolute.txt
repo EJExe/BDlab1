@@ -15,3 +15,5 @@ C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laborat
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.Form1.resources
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.Migrations.InitialCreate.resources
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\obj\Debug\lab2prog2.Migrations.MigrationJobWorkers.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\Ninject.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\lab2prog2\bin\Debug\Ninject.xml

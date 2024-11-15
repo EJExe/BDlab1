@@ -1,43 +1,48 @@
-﻿using BLL.Models;
-using DAL;
+﻿using DomainModel;
+using Interfaces.Repository;
+using Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using Interfaces.Models.Models;
+using DAL;
+using Interfaces.Models;
 
-namespace BLL.Services
+namespace Services
 {
-    public class UsersService
+    public class UsersService : IUserService
     {
-        private Users db;
-        public UsersService()
+        private IDbRepos db;
+        public UsersService(IDbRepos repos)
         {
-            db = new Users();
+            db = repos;
         }
 
         public List<USER> GetUsers()
         {
-            return db.User.ToList().Select(i => new USER(i)).ToList();
+            return db.user.GetList().Select(i => new USER(i)).ToList();
         }
 
 
         public USER GetUser(int Id)
         {
-            return new USER(db.User.Find(Id));
+            return new USER(db.user.GetItem(Id));
         }
 
         public void CreateUser(USER p)
         {
-            db.User.Add(new User() { FIO = p.fio, Phone_Number = p.phone_number, ID_Tariff_FK_ = p.ID_tariff,TypeOfUser=p.typeofuser});
+            db.user.Create(new User() {  ID_User = p.ID_user + 1,FIO = p.fio, Phone_Number = p.phone_number, ID_Tariff_FK_ = p.ID_tariff,TypeOfUser=p.typeofuser});
             Save();
             //db.User.Attach(p);
         }
 
         public void UpdateUsers(USER p)
         {
-            User ph = db.User.Find(p.ID_user);
+            User ph = db.user.GetItem(p.ID_user);
+            ph.ID_User = p.ID_user;
             ph.FIO = p.fio;
             ph.Phone_Number = p.phone_number;
             ph.ID_Tariff_FK_ = p.ID_tariff;
@@ -47,10 +52,10 @@ namespace BLL.Services
 
         public void DeleteUser(int id)
         {
-            User p = db.User.Find(id);
+            User p = db.user.GetItem(id);
             if (p != null)
             {
-                db.User.Remove(p);
+                db.user.Delete(p.ID_Tariff_FK_);
                 Save();
             }
         }
@@ -58,13 +63,13 @@ namespace BLL.Services
 
         public bool Save()
         {
-            if (db.SaveChanges() > 0) return true;
-            return false;
+            if (db.Save() > 0) return true;
+            else return false;
         }
 
-        public List<CALLS> GetCALLS()
+        public List<TARIFF> GetTARIFFS()
         {
-            return db.call.ToList().Select(i => new CALLS(i)).ToList();
+            return db.tariff.GetList().Select(i => new TARIFF(i)).ToList();
         }
     }
 }

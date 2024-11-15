@@ -1,6 +1,8 @@
 ﻿using BLL;
-using BLL.Models;
 using BLL.Services;
+using Interfaces.Models;
+using Interfaces.Models.Models;
+using Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,10 +23,13 @@ namespace laboratornaya1
 {
     public partial class Form1 : Form
     {
-        
-        UsersService usersService = new UsersService();
-        ReportService reportService = new ReportService();
-        DBDataOperation operation = new DBDataOperation();
+        IUserService userService; 
+        ITarifService operation;
+        IReportService reportService;
+
+        //UsersService usersService = new UsersService();
+        //ReportService reportService = new ReportService();
+        //DBDataOperation operation = new DBDataOperation();
         List<USER> users;
         List<TARIFF> tARIFF;
 
@@ -37,20 +42,18 @@ namespace laboratornaya1
 
         
 
-        public Form1()
+        public Form1(IUserService userservice, ITarifService operaTion, IReportService reportservice )
         {
+            userService = userservice; 
+            operation = operaTion;
+            reportService = reportservice;
+
             InitializeComponent();
             loadData();
         }
 
         private void loadData()
         {
-            //allTarifs = dbcontext.tariff.ToList();
-            //allUsers = dbcontext.User.ToList();
-
-            //comboBoxUserPick.DataSource = allUsers;
-            //comboBoxUserPick.DisplayMember = "FIO";
-            //comboBoxUserPick.ValueMember = "ID_User";
             loadTar();
             loadUsers();
             
@@ -59,7 +62,7 @@ namespace laboratornaya1
 
         private void loadUsers()
         {
-            users = usersService.GetUsers();
+            users = userService.GetUsers();
             bindingSource1.DataSource = users;
         }
         private void loadTar()
@@ -89,18 +92,6 @@ namespace laboratornaya1
 
         private void bindingSource1_CurrentChanged(object sender, EventArgs e) { }
 
-        //private void buttonSort_Click(object sender, EventArgs e)
-        //{
-        //    int selectedUser = (int)comboBoxUserPick.SelectedValue;
-
-        //    // Фильтрация данных
-        //    allUsersFilt = allUsers.Where(h => h.ID_User == selectedUser).ToList();
-
-        //    // Обновление DataGridView
-        //    dataGridViewUs.DataSource = allUsersFilt;
-        //}
-
-
 
         public class SPResult
         {
@@ -126,7 +117,7 @@ namespace laboratornaya1
             bool res = Validate();
             if (res)
             {
-                usersService.Save();
+                //userService.save();
             }
         }
 
@@ -144,12 +135,12 @@ namespace laboratornaya1
                 return;
 
             USER us = new USER();
-            us.ID_tariff = users.Count() + 1;
+            us.ID_user = users.Count();
             us.ID_tariff = (int)f.comboBox1.SelectedValue;
             us.phone_number = f.textBox2.Text;
             us.fio = f.textBox1.Text;
-            usersService.CreateUser(us);
-            users = usersService.GetUsers();
+            userService.CreateUser(us);
+            users = userService.GetUsers();
             loadUsers();
             MessageBox.Show("New ADD");
         }
@@ -183,7 +174,7 @@ namespace laboratornaya1
                     contr.ID_tariff = (int)f.comboBox1.SelectedValue;
                     contr.fio = f.textBox1.Text;
                     contr.phone_number = f.textBox2.Text;
-                    usersService.UpdateUsers(contr);
+                    userService.UpdateUsers(contr);
                     loadUsers();
                     MessageBox.Show("Объект обновлен");
                 }
@@ -201,19 +192,19 @@ namespace laboratornaya1
                 bool converted = Int32.TryParse(dataGridViewUs[0, index].Value.ToString(), out id);
                 if (converted == false)
                     return;
-                usersService.DeleteUser(id);
-                bindingSource1.DataSource = usersService.GetUsers();
+                userService.DeleteUser(id);
+                bindingSource1.DataSource = userService.GetUsers();
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            dataGridViewReps.DataSource = ReportService.ExecuteSP(dateTimePicker1.Value, dateTimePicker2.Value);
+            dataGridViewReps.DataSource = reportService.ExecuteSP(dateTimePicker1.Value, dateTimePicker2.Value);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            dataGridViewReps.DataSource = ReportService.ReportTar();
+            dataGridViewReps.DataSource = reportService.ReportTar();
         }
 
         private void AddTarButton_Click(object sender, EventArgs e)

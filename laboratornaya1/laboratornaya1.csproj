@@ -42,6 +42,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Ninject, Version=3.3.6.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.6\lib\net45\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -109,6 +112,8 @@
     <Compile Include="User.cs">
       <DependentUpon>MobileOperatorDB.tt</DependentUpon>
     </Compile>
+    <Compile Include="Util\NinjectRegistrarion.cs" />
+    <Compile Include="Util\ReposModule.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +177,22 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{9d32805f-0cdf-4e11-89f8-f7c9007d1163}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{ab63cdf6-1826-4a19-9e02-4256dc03783a}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DomainModel\DomainModel.csproj">
+      <Project>{41db59cd-85f4-4fe3-a896-4e1a56a166ed}</Project>
+      <Name>DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{6389300b-f761-4930-8c97-3b26fa25f30f}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lab2prog2\lab2prog2.csproj">
+      <Project>{8d89297c-fe52-400d-bf92-884f86578711}</Project>
+      <Name>lab2prog2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

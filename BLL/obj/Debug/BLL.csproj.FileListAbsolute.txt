@@ -13,3 +13,11 @@ C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laborat
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\DAL.dll
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\DAL.pdb
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\DAL.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\DomainModel.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\Interfaces.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\Ninject.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\DomainModel.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\DomainModel.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\Interfaces.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\Interfaces.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\bin\Debug\Ninject.xml

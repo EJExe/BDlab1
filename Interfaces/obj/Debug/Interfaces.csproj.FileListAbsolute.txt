@@ -1,0 +1,17 @@
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\Interfaces.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\DomainModel.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\DomainModel.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\DomainModel.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\obj\Debug\Interfaces.csproj.Up2Date
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\Ninject.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\Interfaces\bin\Debug\Ninject.xml

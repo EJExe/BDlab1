@@ -21,3 +21,14 @@ C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laborat
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DAL.pdb
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DAL.dll.config
 C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\obj\Debug\laboratornaya1.Form3.resources
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DomainModel.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\Interfaces.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\lab2prog2.exe
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\Ninject.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DomainModel.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\DomainModel.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\Interfaces.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\Interfaces.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\lab2prog2.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\lab2prog2.exe.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\laboratornaya1\bin\Debug\Ninject.xml

@@ -233,7 +233,7 @@
             // 
             // bindingSource2
             // 
-            this.bindingSource2.DataSource = typeof(BLL.Services.UsersService);
+            this.bindingSource2.DataSource = typeof(Services.UsersService);
             this.bindingSource2.CurrentChanged += new System.EventHandler(this.bindingSource2_CurrentChanged);
             // 
             // SaveTarButton

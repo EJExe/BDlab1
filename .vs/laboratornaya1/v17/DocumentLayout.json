@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\util\\reposmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\util\\reposmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\util\\ninjectregistrarion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\util\\ninjectregistrarion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\dal\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|solutionrelative:dal\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\dal\\repository\\userrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\userrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\dal\\repository\\tarifrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\tarifrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\dal\\repository\\reportrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\reportrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\dal\\repository\\dbrepossql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\dbrepossql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\dal\\repository\\callrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63CDF6-1826-4A19-9E02-4256DC03783A}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\callrepositorysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\bll\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|solutionrelative:bll\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +51,88 @@
       "RelativeMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|solutionrelative:bll\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\bll\\services\\dbdataoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\bll\\services\\dbdataoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLL.csproj|solutionrelative:bll\\services\\dbdataoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\services\\itarifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\services\\itarifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\services\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\repository\\ireportsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\repository\\ireportsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\repository\\idbrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\repository\\idbrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|c:\\users\\mrlas\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u043A\u0443\u0440\u0441\\\u043C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\models\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\models\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\interfaces\\models\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6389300B-F761-4930-8C97-3B26FA25F30F}|Interfaces\\Interfaces.csproj|solutionrelative:interfaces\\models\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB59CD-85F4-4FE3-A896-4E1A56A166ED}|DomainModel\\DomainModel.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\domainmodel\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB59CD-85F4-4FE3-A896-4E1A56A166ED}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB59CD-85F4-4FE3-A896-4E1A56A166ED}|DomainModel\\DomainModel.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\domainmodel\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB59CD-85F4-4FE3-A896-4E1A56A166ED}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DB59CD-85F4-4FE3-A896-4E1A56A166ED}|DomainModel\\DomainModel.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\domainmodel\\type_of_call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DB59CD-85F4-4FE3-A896-4E1A56A166ED}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\type_of_call.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLLL.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D32805F-0CDF-4E11-89F8-F7C9007D1163}|BLL\\BLLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A7CF10-0900-475C-A6CF-A0D8308AFCC4}|laboratornaya1\\laboratornaya1.csproj|solutionrelative:laboratornaya1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,9 +141,49 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 784,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 947,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\UserContext.cs",
+              "RelativeDocumentMoniker": "DAL\\UserContext.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\UserContext.cs",
+              "RelativeToolTip": "DAL\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T20:42:56.653Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form1.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
+              "RelativeToolTip": "laboratornaya1\\Form1.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowH0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T10:17:28.878Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\App.config",
+              "RelativeDocumentMoniker": "laboratornaya1\\App.config",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\App.config",
+              "RelativeToolTip": "laboratornaya1\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-08T11:47:08.928Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -42,67 +194,362 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
-              "RelativeDocumentMoniker": "laboratornaya1\\Form1.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
-              "RelativeToolTip": "laboratornaya1\\Form1.cs",
-              "ViewState": "AQIAALUAAAAAAAAAAIAwwMgAAAAvAAAA",
+              "DocumentIndex": 2,
+              "Title": "ReposModule.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Util\\ReposModule.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Util\\ReposModule.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Util\\ReposModule.cs",
+              "RelativeToolTip": "laboratornaya1\\Util\\ReposModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T10:17:28.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T10:20:12.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepositorySQL.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\UserRepositorySQL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\UserRepositorySQL.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\UserRepositorySQL.cs",
+              "RelativeToolTip": "DAL\\Repository\\UserRepositorySQL.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:54:47.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CallRepositorySQL.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\CallRepositorySQL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\CallRepositorySQL.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\CallRepositorySQL.cs",
+              "RelativeToolTip": "DAL\\Repository\\CallRepositorySQL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:54:39.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbReposSQL.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\DbReposSQL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\DbReposSQL.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\DbReposSQL.cs",
+              "RelativeToolTip": "DAL\\Repository\\DbReposSQL.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:43:17.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportRepositorySQL.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\ReportRepositorySQL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\ReportRepositorySQL.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\ReportRepositorySQL.cs",
+              "RelativeToolTip": "DAL\\Repository\\ReportRepositorySQL.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:44:34.267Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "NinjectRegistrarion.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Util\\NinjectRegistrarion.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Util\\NinjectRegistrarion.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Util\\NinjectRegistrarion.cs",
+              "RelativeToolTip": "laboratornaya1\\Util\\NinjectRegistrarion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T23:02:00.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UsersService.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\UsersService.cs",
+              "RelativeToolTip": "BLL\\Services\\UsersService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:48:55.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:54:31.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITarifService.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Services\\ITarifService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Services\\ITarifService.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Services\\ITarifService.cs",
+              "RelativeToolTip": "Interfaces\\Services\\ITarifService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:54:30.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TarifRepositorySQL.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\TarifRepositorySQL.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\TarifRepositorySQL.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DAL\\Repository\\TarifRepositorySQL.cs",
+              "RelativeToolTip": "DAL\\Repository\\TarifRepositorySQL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:45:32.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Interfaces\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:54:27.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs",
               "RelativeDocumentMoniker": "laboratornaya1\\Form1.cs",
               "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "laboratornaya1\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T21:09:11.15Z",
+              "WhenOpened": "2024-10-30T19:34:53.953Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "DBDataOperation.cs",
               "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\DBDataOperation.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\DBDataOperation.cs",
               "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\DBDataOperation.cs",
               "RelativeToolTip": "BLL\\Services\\DBDataOperation.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAUwFEAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T19:03:46.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T21:49:27.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "ReportService.cs",
               "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\ReportService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\ReportService.cs",
               "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\ReportService.cs",
               "RelativeToolTip": "BLL\\Services\\ReportService.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAADwvx0AAAAuAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwEEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T19:03:18.32Z",
+              "WhenOpened": "2024-10-24T22:37:43.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Reports.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Models\\Reports.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Models\\Reports.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Models\\Reports.cs",
+              "RelativeToolTip": "Interfaces\\Models\\Reports.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:41:41.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDbRepos.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Repository\\IDbRepos.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Repository\\IDbRepos.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Repository\\IDbRepos.cs",
+              "RelativeToolTip": "Interfaces\\Repository\\IDbRepos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T21:08:12.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Services\\IReportService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Services\\IReportService.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Services\\IReportService.cs",
+              "RelativeToolTip": "Interfaces\\Services\\IReportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:01:28.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IReportsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Repository\\IReportsRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Repository\\IReportsRepository.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Repository\\IReportsRepository.cs",
+              "RelativeToolTip": "Interfaces\\Repository\\IReportsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:01:24.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "call.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DomainModel\\call.cs",
+              "RelativeDocumentMoniker": "DomainModel\\call.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DomainModel\\call.cs",
+              "RelativeToolTip": "DomainModel\\call.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:39:47.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TARIFF.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Models\\TARIFF.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Models\\TARIFF.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Models\\TARIFF.cs",
+              "RelativeToolTip": "Interfaces\\Models\\TARIFF.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:45:14.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "USER.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Models\\USER.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Models\\USER.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\Interfaces\\Models\\USER.cs",
+              "RelativeToolTip": "Interfaces\\Models\\USER.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:10:04.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form3.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form3.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form3.cs",
+              "RelativeToolTip": "laboratornaya1\\Form3.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:48:14.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form2.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form2.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "laboratornaya1\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T23:26:35.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form2.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form2.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form2.cs",
+              "RelativeToolTip": "laboratornaya1\\Form2.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T23:37:05.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "tariff.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DomainModel\\tariff.cs",
+              "RelativeDocumentMoniker": "DomainModel\\tariff.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DomainModel\\tariff.cs",
+              "RelativeToolTip": "DomainModel\\tariff.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:21:32.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form3.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form3.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "laboratornaya1\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T23:26:36.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Form1.Designer.cs",
+              "RelativeToolTip": "laboratornaya1\\Form1.Designer.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAAAmwOsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T22:50:35.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\UsersService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\UsersService.cs",
-              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Services\\UsersService.cs",
-              "RelativeToolTip": "BLL\\Services\\UsersService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAArAAAA",
+              "DocumentIndex": 30,
+              "Title": "type_of_call.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DomainModel\\type_of_call.cs",
+              "RelativeDocumentMoniker": "DomainModel\\type_of_call.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\DomainModel\\type_of_call.cs",
+              "RelativeToolTip": "DomainModel\\type_of_call.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T19:03:02.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T20:39:42.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T20:02:11.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Program.cs",
+              "RelativeDocumentMoniker": "laboratornaya1\\Program.cs",
+              "ToolTip": "C:\\Users\\mrlas\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\3\u041A\u0423\u0420\u0421\\\u041C\u043E\u0447\u0430\u043B\u043E\u0432\\laboratornaya1\\laboratornaya1\\Program.cs",
+              "RelativeToolTip": "laboratornaya1\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T19:34:46.024Z"
             }
           ]
         }

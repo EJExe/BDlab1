@@ -1,0 +1,2 @@
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\obj\Debug\BLLL.csproj.AssemblyReference.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\BLL\obj\Debug\BLLL.csproj.CoreCompileInputs.cache

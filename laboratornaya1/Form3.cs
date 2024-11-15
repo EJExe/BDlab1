@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using BLL;
 using BLL.Services;
+using Interfaces.Models.Models;
 
 namespace laboratornaya1
 {
@@ -36,7 +37,7 @@ namespace laboratornaya1
                 Price = Convert.ToInt32(textBox3PRICE.Text),
             };
 
-            DBDataOperation service = new DBDataOperation();
+            DBDataOperation service = new DBDataOperation(); 
             bool result = service.MakeTar(order,textBox1NAME.Text);
             if (result)
             {

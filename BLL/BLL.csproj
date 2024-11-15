@@ -40,6 +40,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Ninject, Version=3.3.6.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.3.6\lib\net45\Ninject.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -53,10 +56,6 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Services\DBDataOperation.cs" />
-    <Compile Include="Models\CALLS.cs" />
-    <Compile Include="Models\ORDER.cs" />
-    <Compile Include="Models\TARIFF.cs" />
-    <Compile Include="Models\USER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\UsersService.cs" />
     <Compile Include="Services\ReportService.cs" />
@@ -69,6 +68,14 @@
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{ab63cdf6-1826-4a19-9e02-4256dc03783a}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DomainModel\DomainModel.csproj">
+      <Project>{41db59cd-85f4-4fe3-a896-4e1a56a166ed}</Project>
+      <Name>DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{6389300b-f761-4930-8c97-3b26fa25f30f}</Project>
+      <Name>Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

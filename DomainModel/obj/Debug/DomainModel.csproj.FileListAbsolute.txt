@@ -1,0 +1,14 @@
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\DomainModel.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\DomainModel.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\obj\Debug\DomainModel.csproj.AssemblyReference.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\obj\Debug\DomainModel.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\obj\Debug\DomainModel.pdb
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\DomainModel.dll.config
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\EntityFramework.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\EntityFramework.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\obj\Debug\DomainMo.6BFF71DD.Up2Date
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\Ninject.dll
+C:\Users\mrlas\OneDrive\Рабочий стол\3КУРС\Мочалов\laboratornaya1\DomainModel\bin\Debug\Ninject.xml
